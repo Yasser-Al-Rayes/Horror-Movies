@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Luxurious+Roman&family=M+PLUS+2&family=Oswald:wght@500&family=Padauk&family=Permanent+Marker&family=Rubik+Glitch&family=Rubik+Wet+Paint&family=Signika+Negative:wght@700&family=ZCOOL+QingKe+HuangYou&display=swap');
+/*font-family: 'Rubik Wet Paint',
+cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Creepster&family=Luxurious+Roman&family=M+PLUS+2&family=Oswald:wght@500&family=Padauk&family=Permanent+Marker&family=Rubik+Glitch&family=Rubik+Wet+Paint&family=Signika+Negative:wght@700&family=ZCOOL+QingKe+HuangYou&display=swap');
+/*font-family: 'Creepster',
+cursive;*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.father {
+  height: 100vh;
+}
+.row
+{
+  margin: 0% !important;
+  padding: 0% !important;
+
+}
+nav
+{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='40' preserveAspectRatio='none' viewBox='0 0 1440 40'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1306%26quot%3b)' fill='none'%3e%3crect width='1440' height='40' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 0.77)'%3e%3c/rect%3e%3cpath d='M40 40L80 0L128 0L88 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M270.6 40L310.6 0L654.1 0L614.1 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M486.20000000000005 40L526.2 0L574.2 0L534.2 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M725.8000000000001 40L765.8000000000001 0L1010.3000000000001 0L970.3000000000001 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M1406 40L1366 0L1021 0L1061 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M1182.4 40L1142.4 0L1022.4000000000001 0L1062.4 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M947.8 40L907.8 0L721.8 0L761.8 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M704.1999999999999 40L664.1999999999999 0L421.19999999999993 0L461.19999999999993 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M1408.6071079707888 40L1440 8.607107970788825L1440 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M0 40L31.392892029211175 40L 0 8.607107970788825z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1306'%3e%3crect width='1440' height='40' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1307'%3e%3cstop stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1308'%3e%3cstop stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 5!important;
+  box-shadow: 2px 2px  10px rgba(216, 15, 15, 0.678) ;
+  width: 100vw;
+  position: fixed !important;
+}
+.active
+{
+  background-color: rgba(216, 15, 15, 0.856) !important;
+  border:none !important;
+  border-radius: 4px;
+}
+.active:hover
+{
+  color: snow !important;
+}
+.snow
+{
+  color: snow !important;
+}
+.navbar a
+{
+  text-decoration: none;
+  color:snow ;
+}
+.snow:hover
+{
+  color: rgba(216, 15, 15, 0.856) !important;
+  border: 1px solid snow;
+  border-radius: 3px;
+}
+.dropdown-menu a
+{
+  color: black;
+}
+.dropdown-menu a:hover
+{
+  background-color: rgba(216, 15, 15, 0.856);
+}
+form
+{
+  padding-right: 10px;
+}
+.form-control {
+  background-color: rgba(0, 0, 0, 0.507) !important;
+}
+form button
+{
+  color: rgba(216, 15, 15, 0.856) !important;
+  border:1px solid #fff !important;
+}
+
+form button:hover {
+  color: #fff !important;
+  background-color: rgba(216, 15, 15, 0.856) !important;
+} 
+.navbar-toggler
+{
+  background-color: snow !important;
+}
+.homepage
+{
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%,-50%);
+  height: 30vh;
+  width: 40vw;
+  text-align: center;
+}
+.homepage h1
+{
+  color:rgba(216, 15, 15, 0.856) ;
+  font-family: 'Rubik Wet Paint',
+  cursive;
+  font-size:3.8rem;
+  font-weight:bolder;
+  text-shadow: 0.5px 0.5px 2px rgb(26, 15, 15);
+  margin-bottom: 5%;
+}
+.homepage p
+{
+  color: snow;
+  font-family: 'Creepster',
+  cursive;
+  margin-bottom: 5%;
+  font-size: 1.3rem;
+}
+@media (max-width:520px)
+{
+  .homepage
+  {
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .homepage p
+  {
+    font-size: 1rem;
+  }
+  .homepage h1
+  {
+    font-size: 2rem;
+  }
+  .homepage button
+  {
+    padding: 0%;
+    height: 60px;
+  }
+}
+.homepage button {
+  position: relative;
+  padding: 15px 36px;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+}
+.homepage button span {
+  position: relative;
+  font-family: 'Rubik Wet Paint',
+  cursive;
+  letter-spacing: 2px;
+  z-index:1 ;
+  font-weight: bold;
+}
+.homepage button .liquid {
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: rgba(216, 15, 15, 0.973);
+  transition: .5s;
+}
+.homepage button .liquid::after,
+.homepage button .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #fff;
+}
+.homepage button .liquid::before {
+  border-radius: 45%;
+  background: snow;
+  animation: animate 5s linear infinite;
+}
+.homepage button .liquid::after {
+  border-radius: 40%;
+  background: rgba(0, 0, 0, 0.897);
+  animation: animate 10s linear infinite;
+}
+.homepage button:hover .liquid {
+  top: -120px;
+}
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+.sec1
+{
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgba(216, 15, 15, 0.973);
+}
+.sec1-title
+{
+  text-align: center;
+  font-family: 'Rubik Wet Paint',
+  cursive;
+  color: snow;
+  padding-top: 6%; 
+  margin-bottom: 2%;
+}
+.sec1-title span
+{
+  color: rgba(216, 15, 15, 0.856);
+}
+.sec1-cards
+{
+  position: absolute;
+  top:150%;
+  left: 50%; 
+  transform: translate(-50%);
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 , .card2 , .card3
+, .card4 , .card5 , .card6
+, .card7 , .card8 , .card9
+, .card10 , .card11 ,.card12
+{
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid snow;
+  border-radius: 9px;
+  position: relative;
+  margin: 2%;
+}
+.sec1-cards img
+{
+  width: 100%;
+  border-radius: 9px;
+}
+.sec1-cards h4
+{
+  font-family: 'Creepster',
+  cursive;
+  color: snow;
+  padding-top: 5%;
+  font-size: 1.9rem;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='40' preserveAspectRatio='none' viewBox='0 0 1440 40'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1306%26quot%3b)' fill='none'%3e%3crect width='1440' height='40' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 0.77)'%3e%3c/rect%3e%3cpath d='M40 40L80 0L128 0L88 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M270.6 40L310.6 0L654.1 0L614.1 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M486.20000000000005 40L526.2 0L574.2 0L534.2 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M725.8000000000001 40L765.8000000000001 0L1010.3000000000001 0L970.3000000000001 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M1406 40L1366 0L1021 0L1061 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M1182.4 40L1142.4 0L1022.4000000000001 0L1062.4 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M947.8 40L907.8 0L721.8 0L761.8 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M704.1999999999999 40L664.1999999999999 0L421.19999999999993 0L461.19999999999993 40z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3cpath d='M1408.6071079707888 40L1440 8.607107970788825L1440 40z' fill='url(%23SvgjsLinearGradient1307)'%3e%3c/path%3e%3cpath d='M0 40L31.392892029211175 40L 0 8.607107970788825z' fill='url(%23SvgjsLinearGradient1308)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1306'%3e%3crect width='1440' height='40' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1307'%3e%3cstop stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1308'%3e%3cstop stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec1-cards h4:hover
+{
+  color:rgba(216, 15, 15, 0.856) ;
+}
+
+/*______________ section 2 ___________________*/
+.sec2
+{
+  height: 100vh;
+  position: relative;
+}
+.sec2-background
+{
+  height: 100%;
+  background-attachment: fixed;
+  background-image: url(../Images/sec2-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(2px);
+}
+.sec2-text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  height: 30%;
+  width:85%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1350' height='300' preserveAspectRatio='none' viewBox='0 0 1350 300'%3e%3cg mask='url(%26quot%3b%23SvgjsMask3364%26quot%3b)' fill='none'%3e%3crect width='1350' height='300' x='0' y='0' fill='url(%23SvgjsLinearGradient3365)'%3e%3c/rect%3e%3cpath d='M44 300L344 0L642.5 0L342.5 300z' fill='url(%23SvgjsLinearGradient3366)'%3e%3c/path%3e%3cpath d='M226.75 300L526.75 0L700.75 0L400.75 300z' fill='url(%23SvgjsLinearGradient3366)'%3e%3c/path%3e%3cpath d='M463.5 300L763.5 0L906 0L606 300z' fill='url(%23SvgjsLinearGradient3366)'%3e%3c/path%3e%3cpath d='M690.25 300L990.25 0L1216.75 0L916.75 300z' fill='url(%23SvgjsLinearGradient3366)'%3e%3c/path%3e%3cpath d='M1346 300L1046 0L732.5 0L1032.5 300z' fill='url(%23SvgjsLinearGradient3367)'%3e%3c/path%3e%3cpath d='M1107.25 300L807.25 0L739.75 0L1039.75 300z' fill='url(%23SvgjsLinearGradient3367)'%3e%3c/path%3e%3cpath d='M864.5 300L564.5 0L486.5 0L786.5 300z' fill='url(%23SvgjsLinearGradient3367)'%3e%3c/path%3e%3cpath d='M640.75 300L340.75 0L157.75 0L457.75 300z' fill='url(%23SvgjsLinearGradient3367)'%3e%3c/path%3e%3cpath d='M1182.8816139381352 300L1350 132.8816139381351L1350 300z' fill='url(%23SvgjsLinearGradient3366)'%3e%3c/path%3e%3cpath d='M0 300L167.1183860618649 300L 0 132.8816139381351z' fill='url(%23SvgjsLinearGradient3367)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask3364'%3e%3crect width='1350' height='300' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='19.44%25' y1='-87.5%25' x2='80.56%25' y2='187.5%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient3365'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 0.9)' offset='0.08'%3e%3c/stop%3e%3cstop stop-color='rgba(18%2c 17%2c 17%2c 0.84)' offset='0.28'%3e%3c/stop%3e%3cstop stop-color='rgba(18%2c 17%2c 17%2c 0.78)' offset='0.49'%3e%3c/stop%3e%3cstop stop-color='rgba(18%2c 17%2c 17%2c 0.69)' offset='0.69'%3e%3c/stop%3e%3cstop stop-color='rgba(11%2c 11%2c 11%2c 0.64)' offset='0.91'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient3366'%3e%3cstop stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient3367'%3e%3cstop stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(185%2c 15%2c 15%2c 0.43)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  border-radius: 0% 0% 100%;
+  box-shadow: 3px 3px 10px rgba(216, 15, 15, 0.856);
+  padding: 2%;
+  padding-right: 20%;
+}
+.sec2-text h4
+{
+  color: rgba(216, 15, 15, 0.856);
+  font-size: 3.2rem;
+  font-family: 'Rubik Wet Paint',
+  cursive;
+}
+.sec2-text h3
+{
+  font-family: 'Creepster',
+  cursive;
+  color: snow;
+  font-size: 2.5rem;
+  margin: 1%;
+}
+@media (max-width:800px)
+{
+  .sec2-text h4
+  {
+    font-size: 3rem;
+  }
+  .sec2-text h3
+  {
+    font-size:2rem ;
+  }
+  .sec2-text
+  {
+    width: 90%;
+  }
+}
+@media (max-width: 630px)
+{
+  .sec2-text h4 {
+    font-size: 2.9rem;
+  }
+  
+  .sec2-text h3 {
+    font-size: 1.9rem;
+  }
+  .sec2-text
+  {
+    border-radius: 10px;
+    padding-right: 0%;
+    padding-top: 8%;
+    height:42%;
+  }
+  .sec2-background {
+    background-image: url(../Images/sec2-1.jpg);
+  }
+}
+
+@media(max-width:375px)
+{
+  .sec2-text h4
+  {
+    font-size: 2.1rem;
+  }
+  .sec2-text h3
+  {
+    font-size: 1.6rem;
+  }
+  .sec2-text
+  {
+    height: 42%;
+    width: 85%;
+    padding-top: 15%;
+  }
+} 
+
+.sec3
+{ 
+  padding: 1%;
+  background-color: black;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+}
+.sec3-title
+{
+  display: inline-flex;
+  color: rgba(216, 15, 15, 0.856);
+  font-family: 'Rubik Wet Paint',
+  cursive;
+  font-size: 2.5rem;
+  margin: 2%;
+}
+.sec3-form
+{
+  height: 560px;
+  width: 750px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='750' height='560' preserveAspectRatio='none' viewBox='0 0 750 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1035%26quot%3b)' fill='none'%3e%3crect width='750' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 0.81)'%3e%3c/rect%3e%3cpath d='M40.14 576C120.98 560.09 155.89 355.28 283.29 353.51 410.69 351.74 404.87 423.51 526.44 423.51 648.02 423.51 706.34 354.2 769.59 353.51' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M6.93 623.81C82.64 615.28 128.72 448.8 256.04 448.22 383.36 447.64 380.59 518.22 505.14 518.22 629.7 518.22 689.56 448.88 754.25 448.22' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M430.98 642.47C535.3 539.2 509.84 110.35 639.03 93.42 768.22 76.49 771.76 306.5 847.08 328.62' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M404.91 566.57C518.13 472.77 506.23 36.81 641.37 28.06 776.5 19.31 791.27 275.83 877.82 302.46' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M212.99 631.94C342.54 579.41 370.59 182.63 542.92 180.47 715.24 178.31 769.98 418.61 872.84 432.47' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1035'%3e%3crect width='750' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  border: 1.5px solid snow;
+  border-radius: 6vw 0% 6vw 0%;
+  margin: 2%;
+  padding: 4%;
+  color: snow;
+  font-family: 'Creepster',
+  cursive;
+}
+textarea:focus , input:focus
+{
+  color: rgba(216, 15, 15, 0.856) !important;
+}
+input,
+select,
+textarea {
+  color: rgba(216, 15, 15, 0.856) !important;
+} 
+.submit-button
+{
+  padding:1.5% 8% !important;
+  font-size: 1.2rem !important;
+  display: block;
+}
+.form-text
+{
+  margin: 6% !important;
+  font-size: 1.4rem;
+}
+.sec3-form button
+{
+  position: relative;
+  padding: 16px 29px;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+}
+.sec3-form button span {
+  position: relative;
+  font-family: 'Rubik Wet Paint',
+    cursive;
+  letter-spacing: 2px;
+  z-index: 1;
+  font-weight: bold;
+}
+.sec3-form button .liquid {
+  position: absolute;
+  top: -85px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: rgba(216, 15, 15, 0.973);
+  transition: .5s;
+}
+.sec3-form button .liquid::after,
+.sec3-form button .liquid::before {
+  content: '';
+  width: 250%;
+  height: 210%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #fff;
+}
+
+.sec3-form button .liquid::before {
+  border-radius: 45%;
+  background: snow;
+  animation: animate 5s linear infinite;
+}
+
+.sec3-form button .liquid::after {
+  border-radius: 40%;
+  background: rgba(0, 0, 0, 0.897);
+  animation: animate 10s linear infinite;
+}
+
+.sec3-form button:hover .liquid {
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+/*______________  alt form ________________________*/
+.altform {
+  position: absolute;
+  height: fit-content;
+  width: 750px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='750' height='560' preserveAspectRatio='none' viewBox='0 0 750 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1035%26quot%3b)' fill='none'%3e%3crect width='750' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 0.81)'%3e%3c/rect%3e%3cpath d='M40.14 576C120.98 560.09 155.89 355.28 283.29 353.51 410.69 351.74 404.87 423.51 526.44 423.51 648.02 423.51 706.34 354.2 769.59 353.51' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M6.93 623.81C82.64 615.28 128.72 448.8 256.04 448.22 383.36 447.64 380.59 518.22 505.14 518.22 629.7 518.22 689.56 448.88 754.25 448.22' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M430.98 642.47C535.3 539.2 509.84 110.35 639.03 93.42 768.22 76.49 771.76 306.5 847.08 328.62' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M404.91 566.57C518.13 472.77 506.23 36.81 641.37 28.06 776.5 19.31 791.27 275.83 877.82 302.46' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3cpath d='M212.99 631.94C342.54 579.41 370.59 182.63 542.92 180.47 715.24 178.31 769.98 418.61 872.84 432.47' stroke='rgba(216%2c 15%2c 15%2c 0.7)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1035'%3e%3crect width='750' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  border: 1.5px solid snow;
+  border-radius: 5vw 0% 5vw 0%;
+  margin: 2%;
+  padding: 1%;
+  color: snow;
+  font-family: 'Creepster',
+    cursive;
+    display: none;
+}
+.submit-button {
+  padding: 1.5% 8% !important;
+  font-size: 1.2rem !important;
+  display: block;
+}
+
+.altform-text {
+  font-size: 1.4rem;
+  margin: 1% !important;
+  margin-top: 4% !important;
+}
+.altform button {
+  position: relative;
+  padding: 16px 29px;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+}
+
+.altform button span {
+  position: relative;
+  font-family: 'Rubik Wet Paint',
+    cursive;
+  letter-spacing: 2px;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.altform button .liquid {
+  position: absolute;
+  top: -85px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: rgba(216, 15, 15, 0.973);
+  transition: .5s;
+}
+
+.altform button .liquid::after,
+.altform button .liquid::before {
+  content: '';
+  width: 250%;
+  height: 210%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #fff;
+}
+
+.altform button .liquid::before {
+  border-radius: 45%;
+  background: snow;
+  animation: animate 5s linear infinite;
+}
+
+.altform button .liquid::after {
+  border-radius: 40%;
+  background: rgba(0, 0, 0, 0.897);
+  animation: animate 10s linear infinite;
+}
+
+.altform button:hover .liquid {
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+.sec3-text
+{
+  margin: 2%;
+  font-size: 1.4rem;
+  color: snow;
+  font-family: 'Rubik Wet Paint',
+  cursive;
+}
+@media (max-width:500px)
+{
+  .sec3-text
+  {
+    display: none;
+  }
+}
+footer
+{
+  position: relative;
+  height: fit-content;
+  background-color: black;
+  border-bottom: none;
+  border-left: none;
+  box-shadow: 0px -3px 8px rgba(216, 15, 15, 0.973) ;
+}
+.footer-item
+{
+  height: 100%;
+  width: 100%;
+  padding-left: 40%;
+}
+.footer-img
+{
+  position: absolute; 
+  top: 10%;
+  z-index: 2;
+  height: 80%;
+  width: 35%;
+  display: block; 
+}
+.footer-anchor-movie
+{
+  padding: 2%;
+  padding-right: 3%;
+}
+.footer-anchor-movie .row
+{
+  margin: 5% !important;
+}
+footer a
+{
+  text-decoration:underline;
+  color: rgba(216, 15, 15, 0.973);
+  font-size: larger;
+}
+footer a:hover
+{
+  color: snow !important;
+}
+.font
+{
+  padding: 5%;
+}
+.font p
+{
+  color: snow;
+  font-size: 1.4rem;
+  margin-bottom: 9%;
+}
+.font i
+{
+  margin: 2%;
+  color: rgba(216, 15, 15, 0.973);
+  cursor: pointer;
+}
+.font i:hover
+{
+  color: snow;
+}
+@media (max-width:600px)
+{
+  footer a
+  {
+    font-size:1rem;
+  }
+  .font p
+  {
+    font-size:1rem;
+  }
+  .font i
+  {
+    font-size: 25px;
+  }
+
+}
+@media (max-width:420px) {
+  footer a {
+    font-size: 0.6rem;
+  }
+
+  .font p {
+    font-size: 0.6rem;
+  }
+
+  .font i {
+    font-size: 15px;
+  }
+
+}
